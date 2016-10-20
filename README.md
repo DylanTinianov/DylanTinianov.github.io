@@ -1,5 +1,5 @@
 # dylantinianov.github.io
-### My Website
+### My personal website
 <pre>dylantinianov.me</pre>
 
-This is my personal website, where you can find out more information about me
+Check out my website to find out more about me
