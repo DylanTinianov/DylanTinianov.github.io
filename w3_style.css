@@ -5,6 +5,10 @@ img.center_logo {
         margin-right: auto
 }
 
+.bgimg {
+    background-image: url('./images/new.png');
+}
+
 /* W3.CSS 2.8 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
