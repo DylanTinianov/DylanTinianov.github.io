@@ -1,6 +1,11 @@
-<img src="https://github.com/DylanTinianov/Images/blob/master/Logo/logo_black.png"/ width="40">
+![](https://github.com/DylanTinianov/Images/blob/master/Logo/logo_black.png)
+
 # dylantinianov.github.io
-### My personal website
-<pre>dylantinianov.me</pre>
+
+## My personal website
+
+```
+dylantinianov.me
+```
 
 Check out my website to find out more about me
