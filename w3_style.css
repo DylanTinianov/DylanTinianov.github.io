@@ -6,6 +6,10 @@ img.center_logo {
     margin-right: auto
 }
 
+.center {
+    text-align: center;
+}
+
 .bgimg {
     background-image: url('./images/new.png');
 }
