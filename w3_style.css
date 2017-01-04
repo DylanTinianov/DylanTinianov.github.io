@@ -12,7 +12,12 @@ img.center_logo {
 
 .mid-grey {
     color: #fff!important;
-    background-color: #574c4c!important
+    background-color: #2d2828!important
+}
+
+.very-dark {
+    color: #fff!important;
+    background-color: #1c1919!important
 }
 
 #brown_grad {
