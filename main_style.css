@@ -21,15 +21,21 @@ img.center_logo {
 
 .very-dark {
     color: #fff!important;
-    background-color: #1c1919!important
+    background: radial-gradient(#1d0c39, #000000);
+    /*background-color: #1c1919!important*/
 }
 
-#brown_grad {
+.dark-purp {
+    color: #fff!important;
+    background-color: #1d0c39!important
+}
+
+#purp_grad {
     background: #3d3737;
-    background: radial-gradient(#3d3737, #161313);
-    background: -webkit-repeating-radial-gradient(#3d3737, #161313);
-    background: -o-repeating-radial-gradient(#3d3737, #161313);
-    background: repeating-radial-gradient(#3d3737, #161313);
+    background: radial-gradient(#1d0c39, #000000);
+    background: -webkit-repeating-radial-gradient(#1d0c39, #000000);
+    background: -o-repeating-radial-gradient(#1d0c39, #000000);
+    background: repeating-radial-gradient(#1d0c39, #000000);
 }
 
 

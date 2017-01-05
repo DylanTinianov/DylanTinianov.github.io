@@ -1,225 +1,42 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" class="no-js">
 
 <head>
-    <title>Dylan Tinianov</title>
-    <link rel="icon" href="./images/myLogo_white.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="w3_style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700,400' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Resource style -->
+	<script src="js/modernizr.js"></script>
+	<!-- Modernizr -->
+
+	<title>Dylan Tinianov Intro</title>
 </head>
 
 
-<!-- Navbar -->
-<div class="w3-top">
-    <ul class="w3-navbar w3-theme w3-top w3-left-align w3-large">
-        <li class="w3-opennav w3-right w3-hide-large">
-            <a class="w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-        </li>
-        <li class="w3-hide-small"><a href="#about" class="w3-hover-white">About Me</a></li>
-        <li class="w3-hide-small"><a href="#projects" class="w3-hover-white">Projects</a></li>
-        <li class="w3-hide-small"><a href="#skills" class="w3-hover-white">Skills</a></li>
-        <li class="w3-hide-small"><a href="#music" class="w3-hover-white">Music</a></li>
-        <li class="w3-hide-medium w3-hide-small"><a href="#contact" class="w3-hover-white">Contact</a></li>
-    </ul>
-</div>
+<body>
+	<section class="cd-intro">
+		<div class="cd-intro-content mask-2">
+			<div class="content-wrapper">
+				<div>
+					<h1>Dylan Tinianov</h1>
+					<p>Software Developer</p>
+					<div class="action-wrapper">
+						<a href="./main.html" class="cd-btn main-action">Enter Website</a>
+						<a href="./main.html" class="cd-btn">Contact</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<div id='brown_grad'>
-    <header class="w3-container w3-padding-16">
-        <br/>
-        <br/>
-    </header>
-
-
-    <body id="about" class="w3-content very-dark" style="max-width:1300px">
-        <img class='center_logo' src="./images/DylanT.png" style="width:30%">
-        <h3 class="w3-wide center">SOFTWARE DEVELOPER</h3>
-        <br/>
-        <br/>
-        <img src="./images/profile.jpeg" class=" center_logo" alt="Person" style="width:20%">
-
-
-        <!-- About Me Section -->
-        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
-            <h2 class="w3-wide">ABOUT ME</h2>
-            <p class="w3-justify">I have a passion for programming, learning, performing music, and audio production. I love to play guitar, and take interest in all genres from jazz, to rock. I'm currently a Software Engineering student at the University of Waterloo. My goals
-                span from achieving great success from within my program, to becoming a strongly contributing member to any company I may work for.</p>
-        </div>
-
-
-</div>
-
-<!-- Second Grid-->
-<div class="w3-row">
-    <div id="projects" class="w3-half w3-black w3-center" style="height:900px">
-        <div class="w3-padding-64">
-            <h1 class='w3-wide'>S<a href="https://github.com/DylanTinianov" target="_blank" style="text-decoration: none"><img src="./images/mark.png" style="width:5%"/></a>ftware Development</h1>
-            <p>
-                For full presentation and source code of my projects
-            </p>
-            <p>check out my
-                <a href="https://github.com/DylanTinianov" target="_blank">
-                            github</a>
-            </p>
-            <br/>
-
-            <h2 class='w3-wide'>Recent Projects</h2>
-
-            <div class="w3-row w3-padding-16">
-                <div class="w3-third">
-                    <img src="./images/DataEncryption.png" style="width:25%" />
-                </div>
-                <div class="w3-third w3-justify">
-                    <h5>RSA Encryption</h5>
-                </div>
-
-                <div class="w3-third w3-justify">
-                    <img src="https://travis-ci.org/DylanTinianov/RSA_EncryptionGUI.svg?branch=master" style="width:40%" />
-                </div>
-            </div>
-
-            <div class="w3-row w3-padding-16">
-                <div class="w3-third">
-                    <img src="./images/Math.png" style="width:25%">
-                </div>
-                <div class="w3-third w3-justify">
-                    <h5>Operations Interpreter</h5>
-                </div>
-
-                <div class="w3-third w3-justify">
-                    <img src="https://travis-ci.org/DylanTinianov/Operations_Interpreter.svg?branch=master" style="width:40%" />
-                </div>
-            </div>
-
-
-            <div class="w3-row w3-padding-16">
-                <div class="w3-third">
-                    <img src="./images/Bot.png" style="width:25%">
-                </div>
-                <div class="w3-third w3-justify">
-                    <h5>Chat Bot Interface</h5>
-                </div>
-            </div>
-
-
-
-            <div class="w3-row w3-padding-16">
-                <div class="w3-third">
-                    <img src="./images/Calculator.png" style="width:25%">
-                </div>
-                <div class="w3-third w3-justify">
-                    <h5>Augmented Matrix Solver</h5>
-                </div>
-            </div>
-
-
-            <div class="w3-row w3-padding-16">
-                <div class="w3-third">
-                    <img src="./images/aes.png" style="width:20%">
-                </div>
-                <div class="w3-third w3-justify">
-                    <h5>AES Encryption (ongoing)</h5>
-                </div>
-            </div>
-
-            <!--Icons8 Link-->
-            <a href="https://icons8.com" style="text-decoration: none">
-                <p style="font-size:0.1px">Icon pack by Icons8</p>
-            </a>
-
-        </div>
-
-    </div>
-
-    <div id="skills" class="w3-half w3-black w3-container" style="height:900px">
-        <div class="w3-padding-64 w3-center">
-            <h2 class='w3-wide'>Education</h2>
-            <p>University of Waterloo Software Engineering 1B</p>
-            <img src="./images/logo-uwaterloo.png" style="width:5%">
-            <br/>
-            <h2 class='w3-wide'>Skills</h2>
-
-            <div class="w3-row w3-padding-16">
-                <div class="w3-third">
-                    <p>Object-Oriented Programming</p>
-                    <img src="./images/OOP.png" style="width:20%">
-                </div>
-                <div class="w3-third">
-                    <p>Unit Testing</p>
-                    <br/>
-
-                    <img src="./images/Testing.png" style="width:20%">
-                </div>
-                <div class="w3-third">
-                    <p>Source Control</p>
-                    <br/>
-                    <img src="./images/CodeFork.png" class="w3-round" alt="Random Name" style="width:20%">
-                </div>
-            </div>
-
-            <p class="w3-opacity">Other Skills Include</p>
-
-            <p>Modular programming, Software Architecture, Debugging and Troubleshooting, GUI implementations, and Documenting</p>
-            <p>Ability to quickly self-educate and obtain proficiency in new technologies; successful working in both team and self-directed settings</p>
-            <br/>
-            <h2 class='w3-wide'>Technology Summary</h2>
-            <h4>Programming Languages and Tools</h4>
-            <p>Python, C, C++, JavaScript, CoffeeScript, HTML, CSS, Arduino, Atom, Xcode, PyCharm, CLion, Vi/ Vim, MS Office Suite, Linux, Unix, Bash, Git, SVN</p>
-            <h4>Frameworks and Libraries</h4>
-            <p>Socket Networking, Tkinter, textblob, NLTK, stringscore, jinja2</p>
-        </div>
-    </div>
-</div>
-
-<!-- Third Grid: Swing By & Contact -->
-<div class="w3-row">
-    <div id="music" class="w3-half w3-container w3-center very-dark" style="height:700px">
-        <div class="w3-padding-64">
-            <div class="mid-grey">
-                <div class="w3-padding-48">
-                    <h1 class='w3-wide'>Music</h1>
-                </div>
-                <a href="https://play.spotify.com/track/2Hge01yCL0IaOeJxoPBEEn?play=true&utm_source=open.spotify.com&utm_medium=open" target="_blank">
-                    <img class="center_logo" src="./images/release.png" style="width:39%">
-                </a>
-
-                <div class="w3-padding-48">
-                    <p>Find me on Spotify, iTunes, Amazon Music, etc.</p>
-                    <p>More to come...</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div id="contact" class="w3-half very-dark w3-container" style="height:700px">
-        <div class="w3-padding-64 w3-padding-xxlarge">
-            <h1 class='w3-wide'>Contact</h1>
-            <p class="w3-opacity">GET IN TOUCH</p>
-            <div class="w3-padding-64">
-                <p>Feel free to contact me</p>
-                <p>Toronto, CA</p>
-                <p>416 617 8931</p>
-                <div class="w3-half">
-                    <p>For business or personal
-                        <br/> inquires please contact:</p>
-                    <p>dylantinianov@gmail.com</p>
-                </div>
-
-                <div class="w3-half">
-                    <p>For studio recording or audio mixing services please contact:</p>
-                    <p>dylantinianovMusic@gmail.com</p>
-                </div>
-
-                <p>Find my resume and more on Linked-in</p>
-                <a href="https://ca.linkedin.com/pub/dylan-tinianov/129/405/14" target="_blank">
-                    <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Dylan Tinianov's profile on LinkedIn">
-                </a>
-
-            </div>
-        </div>
-    </div>
-</div>
-
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/main.js"></script>
+	<!-- Resource jQuery -->
 </body>
-
 
 </html>
