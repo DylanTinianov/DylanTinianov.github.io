@@ -14,6 +14,12 @@ img.center_logo {
     background-image: url('./images/new.png');
 }
 
+.light-grey {
+    color: #fff!important;
+    background: linear-gradient(#000000, #bbadad);
+    /* REVIEW: Maybe fade to full white? */
+}
+
 .mid-grey {
     color: #fff!important;
     background-color: #2d2828!important
@@ -2147,4 +2153,9 @@ input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:
 
 .w3-hover-border-theme:hover {
     border-color: #000000 !important
+}
+
+t
+}
+t
 }
