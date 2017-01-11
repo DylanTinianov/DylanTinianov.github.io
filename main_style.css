@@ -36,6 +36,12 @@ img.center_logo {
     background-color: #1d0c39!important
 }
 
+.black-opacity {
+    color: #fff!important;
+    background-color: #000!important;
+    opacity: 0.60;
+}
+
 #purp_grad {
     background: #3d3737;
     background: radial-gradient(#1d0c39, #000000);
