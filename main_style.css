@@ -13,6 +13,14 @@ img.center_logo {
     margin-right: auto
 }
 
+.separate {
+    background-color: black;
+    background-image: url('./images/separate.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .center {
     text-align: center;
 }
@@ -28,7 +36,18 @@ img.center_logo {
 .light-grey {
     color: #fff!important;
     background: linear-gradient(#000000, #bbadad);
-    /* REVIEW: Maybe fade to full white? */
+}
+
+.fixed {
+    background-attachment: fixed;
+}
+
+.me-background {
+    background-color: black;
+    background-image: url("./images/me1.jpg");
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .light-grey-solid {
@@ -54,7 +73,7 @@ img.center_logo {
 }
 
 .dark-purp-text {
-    color: #1d0c39;
+    color: #2a1054;
 }
 
 .black-opacity {
