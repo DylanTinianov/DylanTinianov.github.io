@@ -12,70 +12,58 @@ TODO:   Better organize the Skills section
     <link rel="icon" href="./images/myLogo_white.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main_style.css">
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </head>
 
 
 
 <!-- Navbar -->
-<div class="w3-top w3-animate-opacity">
-    <ul class="w3-navbar w3-theme w3-top w3-left-align w3-large">
+<div class="w3-animate-opacity">
+    <ul class="w3-navbar dark_main-opacity w3-top w3-left-align w3-large">
         <li class="w3-opennav w3-right w3-hide-large">
             <a class="w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
         </li>
-        <li class="w3-hide-small"><a href="#about" class="w3-hover-white">About Me</a></li>
-        <li class="w3-hide-small"><a href="#projects" class="w3-hover-white">Projects</a></li>
-        <li class="w3-hide-small"><a href="#skills" class="w3-hover-white">Skills</a></li>
-        <li class="w3-hide-small"><a href="#music" class="w3-hover-white">Music</a></li>
-        <li class="w3-hide-medium w3-hide-small"><a href="#contact" class="w3-hover-white">Contact</a></li>
+        <li class="w3-hide-small w3-text-white"><a href="#about" class="w3-hover-white">About Me</a></li>
+        <li class="w3-hide-small w3-text-white"><a href="#projects" class="w3-hover-white">Projects</a></li>
+        <li class="w3-hide-small w3-text-white"><a href="#skills" class="w3-hover-white">Skills</a></li>
+        <li class="w3-hide-small w3-text-white"><a href="#music" class="w3-hover-white">Music</a></li>
+        <li class="w3-hide-medium w3-hide-small w3-text-white"><a href="#contact" class="w3-hover-white">Contact</a></li>
     </ul>
 </div>
 
-<div id='purp_grad' class="w3-animate-opacity">
+<div class="w3-animate-opacity">
     <header class="w3-container w3-padding-16">
         <br/>
         <br/>
     </header>
 
-
-    <body id="about" class="w3-content very-dark" style="max-width:1300px">
-        <img class='center_logo' src="./images/DylanT.png" style="width:30%">
-        <h3 class="w3-wide center w3-animate-zoom">SOFTWARE DEVELOPER</h3>
-        <br/>
-        <br/>
-        <img src="./images/profile.jpeg" class="center_logo" alt="Person" style="width:20%">
-
-
+<h1 class="w3-wide center dark_second-text">DYLAN TINIANOV</h1>
+    <body id="about" class="w3-content neutral-white" style="max-width:1300px">
+        <div class="w3-row top-background" style="max-height:1500px">
+            <br/>
+            <h4 class="w3-wide center w3-animate-zoom w3-text-white">SOFTWARE DEVELOPER</h4>
+            <img src="./images/profile.png" class="center_logo" alt="Person" style="width:20%">
+            <br/>
+        </div>
         <!-- About Me Section -->
-        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
-            <h2 class="w3-wide">ABOUT ME</h2>
-            <p class="w3-justify">I have a passion for programming, learning, performing music, and audio production. I love to play guitar, and take interest in all genres from jazz, to rock. I'm currently a Software Engineering student at the University of Waterloo. My goals
+        <div class="w3-row light_blue w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="about">
+            <h3 class="w3-wide dark_second-text">ABOUT ME</h3>
+            <p class="w3-justify w3-text-white">I have a passion for programming, learning, performing music, and audio production. I love to play guitar, and take interest in all genres from jazz, to rock. I'm currently a Software Engineering student at the University of Waterloo. My goals
                 span from achieving great success from within my program, to becoming a strongly contributing member to any company I may work for.</p>
         </div>
-
-
+        <br />
 </div>
 
 <!-- Second Grid-->
+<h1 id="projects" class='w3-wide dark_second-text center'>Software Development</h1>
 <div class="w3-row">
-    <div id="projects" class="w3-half w3-black w3-center" style="height:800px">
+    <div class="soft-dev-background w3-center w3-text-white" style="height:600px">
         <div class="w3-padding-64">
-            <h1 class='w3-wide'>Software Development</h1>
-            <p>
-                For full presentation and source code of my projects
-            </p>
-            <p>check out my
-                <a href="https://github.com/DylanTinianov" target="_blank">
-                            github</a>
-                <a href="https://github.com/DylanTinianov" target="_blank" style="text-decoration: none"><img src="./images/mark.png" style="width:3.5%" /></a>
-            </p>
             <br/>
-
-            <h2 class='w3-wide'>Recent Projects</h2>
-
             <div class="w3-row w3-padding-16">
                 <a href="https://github.com/DylanTinianov/RSA_EncryptionGUI" target="_blank" style="text-decoration: none">
                     <div class="w3-third">
-                        <img src="./images/DataEncryption.png" style="width:25%" />
+                        <img src="./images/DataEncryption.png" style="width:8%" />
                     </div>
                     <div class="w3-third w3-justify">
                         <h5>RSA Encryption</h5>
@@ -83,7 +71,7 @@ TODO:   Better organize the Skills section
                 </a>
                 <a href="https://travis-ci.org/DylanTinianov/RSA_EncryptionGUI" target="_blank" style="text-decoration: none">
                     <div class="w3-third w3-justify">
-                        <img src="https://travis-ci.org/DylanTinianov/RSA_EncryptionGUI.svg?branch=master" style="width:40%" />
+                        <img src="https://travis-ci.org/DylanTinianov/RSA_EncryptionGUI.svg?branch=master" style="width:20%" />
                     </div>
                 </a>
 
@@ -92,7 +80,7 @@ TODO:   Better organize the Skills section
             <div class="w3-row w3-padding-16">
                 <a href="https://github.com/DylanTinianov/Operations_Interpreter" target="_blank" style="text-decoration: none">
                     <div class="w3-third">
-                        <img src="./images/Math.png" style="width:25%">
+                        <img src="./images/Math.png" style="width:8%">
                     </div>
                     <div class="w3-third w3-justify">
                         <h5>Operations Interpreter</h5>
@@ -100,7 +88,7 @@ TODO:   Better organize the Skills section
                 </a>
                 <a href="https://travis-ci.org/DylanTinianov/Operations_Interpreter" target="_blank" style="text-decoration: none">
                     <div class="w3-third w3-justify">
-                        <img src="https://travis-ci.org/DylanTinianov/Operations_Interpreter.svg?branch=master" style="width:40%" />
+                        <img src="https://travis-ci.org/DylanTinianov/Operations_Interpreter.svg?branch=master" style="width:20%" />
                     </div>
                 </a>
             </div>
@@ -108,7 +96,7 @@ TODO:   Better organize the Skills section
             <div class="w3-row w3-padding-16">
                 <a href="https://github.com/DylanTinianov/CmdCrypt" target="_blank" style="text-decoration: none">
                     <div class="w3-third">
-                        <img src="./images/aes.png" style="width:20%">
+                        <img src="./images/aes.png" style="width:8%">
                     </div>
                     <div class="w3-third w3-justify">
                         <h5>CmdCrypt</h5>
@@ -116,7 +104,7 @@ TODO:   Better organize the Skills section
                 </a>
                 <a href="https://travis-ci.org/DylanTinianov/CmdCrypt" target="_blank" style="text-decoration: none">
                     <div class="w3-third w3-justify">
-                        <img src="https://travis-ci.org/DylanTinianov/CmdCrypt.svg?branch=master" style="width:40%" />
+                        <img src="https://travis-ci.org/DylanTinianov/CmdCrypt.svg?branch=master" style="width:20%" />
                     </div>
                 </a>
             </div>
@@ -125,7 +113,7 @@ TODO:   Better organize the Skills section
             <div class="w3-row w3-padding-16">
                 <a href="https://github.com/sexxis/goose" target="_blank" style="text-decoration: none">
                     <div class="w3-third">
-                        <img src="./images/Bot.png" style="width:25%">
+                        <img src="./images/Bot.png" style="width:8%">
                     </div>
                     <div class="w3-third w3-justify">
                         <h5>Chat Bot Interface</h5>
@@ -137,13 +125,15 @@ TODO:   Better organize the Skills section
             <div class="w3-row w3-padding-16">
                 <a href="https://github.com/DylanTinianov/Augmented_Matrix_Solver" target="_blank" style="text-decoration: none">
                     <div class="w3-third">
-                        <img src="./images/Calculator.png" style="width:25%">
+                        <img src="./images/Calculator.png" style="width:10%">
                     </div>
                     <div class="w3-third w3-justify">
                         <h5>Augmented Matrix Solver</h5>
                     </div>
                 </a>
             </div>
+            <br/>
+            <a href="https://github.com/DylanTinianov" target="_blank" style="text-decoration: none"><img src="./images/mark.png" style="width:2%" /></a>
 
 
             <!--Icons8 Link-->
@@ -154,17 +144,39 @@ TODO:   Better organize the Skills section
         </div>
 
     </div>
+</div>
 
-    <div id="skills" class="w3-half w3-black w3-container" style="height:800px">
+    <h1 id="skills" class='w3-wide center dark_second-text'>Education</h1>
+    <div class="w3-row w3-padding-32 w3-text-white center education-background">
+        <br/>
+        <h5 class="w3-wide">University of Waterloo</h5>
+        <p class="w3-wide">Software Engineering, 1B</p>
+        <p class="w3-wide">Class of 2021</p>
+        <br/>
+    </div>
+
+
+    <h1 class='w3-wide center dark_second-text'>Technical Skills</h1>
+    <div class="w3-row w3-white w3-container" style="height:800px">
         <div class="w3-padding-64 w3-center">
-            <h2 class='w3-wide'>Education</h2>
-            <p>University of Waterloo Software Engineering 1B</p>
-            <img src="./images/logo-uwaterloo.png" style="width:5%">
+            <div class="w3-third w3-wide">
+                Object-Oriented Programming
+                <br />
+                <img src="./images/oop.png" style="width:12%">
+            </div>
+            <div class="w3-third w3-wide">
+                Unit Testing
+                <br />
+                <img src="./images/Checklist.png" style="width:12%">
+            </div>
+            <div class="w3-third w3-wide">
+                Source Control
+                <br />
+                <img src="./images/CodeFork.png" style="width:12%">
+            </div>
+
             <br/>
-            <h2 class='w3-wide'>Skills</h2>
-
-
-            <p>object-oriented programming, unit testing, software architecture, debugging and troubleshooting, GUI implementations, source control, and code documentation</p>
+            <br/>
             <p>Ability to quickly self-educate and obtain proficiency in new technologies; successful working in both team and self-directed settings</p>
             <br/>
 
@@ -181,13 +193,11 @@ TODO:   Better organize the Skills section
 
 </div>
 
-<div class="w3-row separate" style="height:125px">
-</div>
+<h1 id="music" class='w3-wide dark_second-text center'>Music</h1>
 
 <div id="music" class="w3-row">
-    <div class="me-background w3-center w3-padding-16" style="height:800px">
+    <div class="me-background w3-center w3-padding-16 w3-text-white" style="height:800px">
         <br/>
-        <h1 class='w3-wide'>Music</h1>
         <div class="w3-half">
             <div class="w3-padding-32">
                 <h3 class='w3-wide'>My Releases</h3>
@@ -246,10 +256,11 @@ TODO:   Better organize the Skills section
 
 
 <!-- Contact -->
+<h1 class='w3-wide center dark_second-text'>Contact</h1>
 <div class="w3-row">
-    <div id="contact" class="very-dark w3-container" style="height:450px">
+    <div id="contact" class="contact-background w3-container w3-text-white" style="height:450px">
         <div class="w3-padding-64 w3-padding-xxlarge center">
-            <h1 class='w3-wide'>Contact</h1>
+
             <p class="w3-opacity">GET IN TOUCH</p>
             <div class="w3-padding-12">
                 <p>Phone: 416 617 8931</p>
@@ -260,7 +271,7 @@ TODO:   Better organize the Skills section
                     <p>dylantinianov@gmail.com</p>
                     <p>dbtinian@uwaterloo.ca</p>
                 </div>
-
+                <br/>
 
                 <div>
                     <div class="w3-third">
@@ -298,5 +309,11 @@ TODO:   Better organize the Skills section
     </div>
 </div>
 </body>
+
+<footer class="dark_main w3-padding-4">
+    <div class="w3-opacity w3-padding-left">
+        <p class="w3-wide w3-small w3-opacity w3-text-white">2017 Dylan Tinianov</p>
+    </div>
+</footer>
 
 </html>
