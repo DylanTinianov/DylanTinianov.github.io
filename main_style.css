@@ -1909,8 +1909,8 @@ input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:
 }
 
 .w3-white, .w3-hover-white:hover {
-    color: #ffffff!important;
-    background-color: rgb(30, 31, 62)!important
+    color: #000!important;
+    background-color: #fff!important
 }
 
 .w3-black, .w3-hover-black:hover {
