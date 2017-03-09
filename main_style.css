@@ -2,6 +2,16 @@
 
 li+li { border-left: 1px solid rgb(32, 33, 61) }
 
+footer {
+    border-color: rgb(70, 82, 94);
+    border-top-style: solid;
+    border-width: thin;
+}
+
+.fat-font {
+    font-weight: 900;
+}
+
 div.scroll {
     background: linear-gradient(#000000, #bbadad);
     width: 600px;
@@ -114,7 +124,7 @@ img.center_logo {
 }
 
 .dark_second-text {
-    color: rgb(20, 21, 52);
+    color: rgb(40, 41, 72);
 }
 
 .light-grey-solid {
