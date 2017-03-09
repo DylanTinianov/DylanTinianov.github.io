@@ -1,5 +1,7 @@
 /* Changes by Dylan Tinianov */
 
+li+li { border-left: 1px solid rgb(32, 33, 61) }
+
 div.scroll {
     background: linear-gradient(#000000, #bbadad);
     width: 600px;
@@ -42,12 +44,77 @@ img.center_logo {
     background-attachment: fixed;
 }
 
-.me-background {
-    background-color: black;
-    background-image: url("./images/me1.jpg");
-    background-size: 350px;
+.neutral-white {
+    background-color: rgb(237, 241, 244);
+}
+
+.second-white {
+    background-color: rgb(217, 217, 217);
+}
+
+.light_blue {
+    background-color: rgb(93, 191, 212);
+}
+
+.top-background {
+    background-image: url("./images/top_background.png");
+    background-size: 954px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.soft-dev-background {
+    background-image: url("./images/soft-dev-background.png");
+    background-size: 1204px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.education-background {
+    background-image: url("./images/education-background.png");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skills-background {
+    background-image: url("./images/skills-background.png");
+    background-size: 1330px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.music-background {
+    background-image: url("./images/music-background.png");
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-background {
+    background-image: url("./images/contact-background.png");
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dark_main {
+    color: rgb(12, 13, 41);
+    background: rgb(12, 13, 41) !important;
+}
+
+.dark_main-opacity {
+    color: rgb(12, 13, 41);
+    background: rgba(12, 13, 41, 0.95) !important;
+}
+
+.dark_second {
+    color: rgb(20, 21, 52);
+    background: rgb(20, 21, 52) !important;
+}
+
+.dark_second-text {
+    color: rgb(20, 21, 52);
 }
 
 .light-grey-solid {
@@ -1842,8 +1909,8 @@ input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:
 }
 
 .w3-white, .w3-hover-white:hover {
-    color: #000!important;
-    background-color: #fff!important
+    color: #ffffff!important;
+    background-color: rgb(30, 31, 62)!important
 }
 
 .w3-black, .w3-hover-black:hover {
