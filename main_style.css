@@ -77,10 +77,16 @@ img.center_logo {
     background-position: center;
 }
 
-.me-background {
-    background-color: black;
-    background-image: url("./images/me1.jpg");
-    background-size: 350px;
+.skills-background {
+    background-image: url("./images/skills-background.png");
+    background-size: 1330px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.music-background {
+    background-image: url("./images/music-background.png");
+    background-size: 1300px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1903,8 +1909,8 @@ input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:
 }
 
 .w3-white, .w3-hover-white:hover {
-    color: #000!important;
-    background-color: #fff!important
+    color: #ffffff!important;
+    background-color: rgb(30, 31, 62)!important
 }
 
 .w3-black, .w3-hover-black:hover {
