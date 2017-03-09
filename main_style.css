@@ -58,7 +58,7 @@ img.center_logo {
 
 .top-background {
     background-image: url("./images/top_background.png");
-    background-size: 954px;
+    background-size: 1500px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -93,7 +93,7 @@ img.center_logo {
 
 .contact-background {
     background-image: url("./images/contact-background.png");
-    background-size: 1300px;
+    background-size: 1500px;
     background-repeat: no-repeat;
     background-position: center;
 }
