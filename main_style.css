@@ -1760,8 +1760,8 @@ input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:
 
 .w3-animate-bottom {
     position: relative;
-    -webkit-animation: animatebottom 1s;
-    animation: animatebottom 1s
+    -webkit-animation: animatebottom 1.4s;
+    animation: animatebottom 1.4s
 }
 
 @-webkit-keyframes animatebottom {
