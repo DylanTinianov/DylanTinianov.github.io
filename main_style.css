@@ -8,6 +8,12 @@ footer {
     border-width: thin;
 }
 
+.border1 {
+    border-color: rgb(70, 82, 94);
+    border-bottom-style: solid;
+    border-width: thin;
+}
+
 .fat-font {
     font-weight: 900;
 }
@@ -67,7 +73,7 @@ img.center_logo {
 }
 
 .top-background {
-    background-image: url("./images/top_background.png");
+    background-image: url("./images/top_background_copy1.png");
     background-size: 1500px;
     background-repeat: no-repeat;
     background-position: center;
@@ -1616,7 +1622,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:
 
 .w3-animate-opacity {
     -webkit-animation: opac 1.5s;
-    animation: opac 1.5s
+    animation: opac 7s
 }
 
 @-webkit-keyframes opac {
@@ -1665,10 +1671,16 @@ input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:
     }
 }
 
-.w3-animate-left {
+.w3-animate-left1 {
     position: relative;
-    -webkit-animation: animateleft 0.4s;
-    animation: animateleft 0.4s
+    -webkit-animation: animateleft 1s;
+    animation: animateleft 1s
+}
+
+.w3-animate-left2 {
+    position: relative;
+    -webkit-animation: animateleft 1.4s;
+    animation: animateleft 1.4s
 }
 
 @-webkit-keyframes animateleft {
@@ -1693,11 +1705,30 @@ input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:
     }
 }
 
-.w3-animate-right {
+.w3-animate-right1 {
     position: relative;
-    -webkit-animation: animateright 0.4s;
-    animation: animateright 0.4s
+    -webkit-animation: animateright 0.7s;
+    animation: animateright 0.7s
 }
+
+.w3-animate-right2 {
+    position: relative;
+    -webkit-animation: animateright 1s;
+    animation: animateright 1s
+}
+
+.w3-animate-right3 {
+    position: relative;
+    -webkit-animation: animateright 1.3s;
+    animation: animateright 1.3s
+}
+
+.w3-animate-right4 {
+    position: relative;
+    -webkit-animation: animateright 1.6s;
+    animation: animateright 1.6s
+}
+
 
 @-webkit-keyframes animateright {
     from {
@@ -1723,8 +1754,8 @@ input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:
 
 .w3-animate-bottom {
     position: relative;
-    -webkit-animation: animatebottom 0.4s;
-    animation: animatebottom 0.4s
+    -webkit-animation: animatebottom 1s;
+    animation: animatebottom 1s
 }
 
 @-webkit-keyframes animatebottom {
