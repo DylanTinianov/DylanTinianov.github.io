@@ -1,6 +1,6 @@
 /* Changes by Dylan Tinianov */
 
-li+li { border-left: 1px solid rgb(32, 33, 61) }
+
 
 footer {
     border-color: rgb(70, 82, 94);
@@ -142,6 +142,14 @@ img.center_logo {
     background-size: 1500px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.split-page {
+    background-image: url("./images/split-page2.png");
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .dark_main {
