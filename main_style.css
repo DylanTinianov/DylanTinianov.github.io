@@ -117,15 +117,22 @@ img.center_logo {
 }
 
 .education-background {
-    background-image: url("./images/education-background.png");
-    background-size: 500px;
+    background-image: url("./images/education-background-2.png");
+    background-size: 1204px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .skills-background {
-    background-image: url("./images/skills-background.png");
-    background-size: 1330px;
+    background-image: url("./images/skills-background3.png");
+    background-size: 1204px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.border-background {
+    background-image: url("./images/border-back.png");
+    background-size: 1204px;
     background-repeat: no-repeat;
     background-position: center;
 }
